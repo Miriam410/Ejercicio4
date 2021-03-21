@@ -10,14 +10,13 @@ namespace Ejercicio4
     {
         static void Main(string[] args)
         {
-            string palabra;
+            string frase;
             do
             {
                 Console.WriteLine("Ingrese una frase.");
-                string frase = Console.ReadLine();
+                frase = Console.ReadLine();
                 Console.WriteLine("Para finalizar, debe ingresar la palabra: fin");
-                palabra = Console.ReadLine();
-            } while (palabra!= "fin");
+            } while (frase!= "fin");
         }
     }
 }
