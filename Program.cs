@@ -10,6 +10,7 @@ namespace Ejercicio4
     {
         static void Main(string[] args)
         {
+        // 4. Permita el ingreso de frases, finalizando cuando el usuario ingresa "fin". 
             string frase;
             do
             {
